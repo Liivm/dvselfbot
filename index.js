@@ -1,6 +1,5 @@
 const { joinVoiceChannel, VoiceConnection, VoiceConnectionStatus } = require('@discordjs/voice');
 const { Client, Channel } = require('discord.js-selfbot-v13');
-const { token } = require('./config.json');
 
 
 guildid = "681797849926860810";
@@ -30,13 +29,4 @@ connextion.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login(token);
-
- 
-
-
-
-
-
-
-
+client.login(process.env.TOKEN);
