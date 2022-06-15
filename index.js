@@ -11,7 +11,7 @@ client.on('ready', async () => {
 
 
  const connextion =   joinVoiceChannel({
-        channelId: "964142046334025808",
+        channelId: "979701087802101790",
         guildId: guildid,
         adapterCreator: client.guilds.cache.get(guildid).voiceAdapterCreator,
 });
