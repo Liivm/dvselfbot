@@ -19,7 +19,7 @@ client.on('ready', async () => {
 connextion.on(VoiceConnectionStatus.Ready, async () => {
     
 
-    console.log(`${client.user.username} is ready!`);
+    console.log(`${client.user.username} is connected!`);
 
 });
 
